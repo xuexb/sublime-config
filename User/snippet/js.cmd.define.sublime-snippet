@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[/**
+ * ${1:模块名称}
+ * @author xieliang
+ * @email admin@xuexb.com
+ */
+
+define(function(require){
+    'use staic';
+    ${2}
+});]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>define</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <description>定义一个cmd模块</description>
+</snippet>

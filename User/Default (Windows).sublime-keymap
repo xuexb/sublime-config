@@ -1,0 +1,15 @@
+[{
+    "keys": ["ctrl+f12"],
+    "command": "omni_markup_preview",
+    "context": [{
+        "key": "omnimarkup_is_enabled",
+        "operator": "equal",
+        "operand": ""
+    }]
+}, {
+    "keys": ["ctrl+shift+k"],
+    "command": "toggle_side_bar"
+},{
+    "keys": ["f12"],
+    "command": "open_browser_win"
+}]

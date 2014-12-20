@@ -58,3 +58,7 @@ js文件所在路径不能有中文
 ## Todo
 
 把`open_browser`的站点配置提出来为`json`文件
+
+http://blog.csdn.net/robberm/article/details/19202815
+
+http://liuzhijun.iteye.com/blog/1859857

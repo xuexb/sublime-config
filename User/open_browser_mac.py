@@ -2,11 +2,11 @@ import sublime, sublime_plugin
 import webbrowser
  
 url_map = {
-    'C:\\web\\html\\' : 'http://127.0.0.1/',
+    '/Users/xieyaowu/work/test/' : 'http://127.0.0.1/',
     'C:\\web\\html5\\' : 'http://192.168.199.2/',
 }
  
-class OpenBrowserCommand(sublime_plugin.TextCommand):
+class OpenBrowserMacCommand(sublime_plugin.TextCommand):
     def run(self,edit):
         window = sublime.active_window()
         window.run_command('save')
@@ -17,6 +17,7 @@ class OpenBrowserCommand(sublime_plugin.TextCommand):
                 url = url.replace(path, domain).replace('\\', '/')
                 flag = True
                 break
+
         if not flag:
             url = 'file://' + url
         webbrowser.open_new(url)

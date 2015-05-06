@@ -10,5 +10,8 @@
     },
     "linux": {
         "cmd": ["killall node; node", "$file"]
+    },
+    "osx": {
+        "cmd": ["killall node >/dev/null 2>&1; node $file"]
     }
 }

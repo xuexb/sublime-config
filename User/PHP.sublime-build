@@ -1,3 +1,4 @@
+//win
 {
     "cmd": ["C:\\php\\php.exe", "$file"],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
@@ -10,5 +11,8 @@
     },
     "linux": {
         "cmd": ["killall php; php", "$file"]
+    },
+    "osx": {
+        "cmd": ["killall php >/dev/null 2>&1; php $file"]
     }
 }

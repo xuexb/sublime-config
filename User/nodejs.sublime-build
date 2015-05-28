@@ -6,7 +6,7 @@
     "shell": true,
     "encoding": "utf-8",
     "windows": {
-        "cmd": ["taskkill /f /im node.exe >nul 2>nul & node", "$file"]
+        "cmd": ["taskkill /f /im node.exe >nul 2>nul & node", "--use-strict", "--harmony", "$file"]
     },
     "linux": {
         "cmd": ["killall node; node", "$file"]

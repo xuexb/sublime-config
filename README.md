@@ -10,7 +10,7 @@ ConvertToUTF8
 DocBlockr
 Emmet
 ETPL
-fecs
+fecs -> https://github.com/xuexb/sublime-fecs
 javascriptNext - Es6 Syntax
 jsFormat
 OmniMarkupPreviewer

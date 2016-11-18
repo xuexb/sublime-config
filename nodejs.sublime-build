@@ -1,0 +1,16 @@
+{
+    "path": "/usr/local/bin/",
+    "working_dir": "${project_path:${folder}}",
+    "selector": "source.js",
+    "encoding": "utf-8",
+    "shell": true,
+    "windows": {
+        "cmd": ["taskkill /f /im node.exe >nul 2>nul & node $file"]
+    },
+    "osx": {
+        "cmd": ["killall node >/dev/null 2>&1; node $file"]
+    },
+    "linux": {
+        "cmd": ["killall node >/dev/null 2>&1; node $file"]
+    }
+}

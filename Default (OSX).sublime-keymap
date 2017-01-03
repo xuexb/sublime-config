@@ -1,0 +1,11 @@
+[{
+    "keys": ["ctrl+f12"],
+    "command": "omni_markup_preview"
+}, {
+    "keys": ["ctrl+shift+k"],
+    "command": "toggle_side_bar"
+}, {
+    "keys": ["super+f12"],
+    "command": "side_bar_open_in_browser",
+    "args":{"paths":[], "type":"testing", "browser":""}
+}]

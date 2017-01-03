@@ -1,6 +1,0 @@
-{
-    "space_after_anon_function": true,
-    "end_with_newline": true,
-    "brace_style": "end-expand",
-    "max_preserve_newlines": 2
-}

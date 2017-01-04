@@ -5,7 +5,7 @@
     "keys": ["ctrl+shift+k"],
     "command": "toggle_side_bar"
 }, {
-    "keys": ["super+f12"],
+    "keys": ["f12"],
     "command": "side_bar_open_in_browser",
     "args":{"paths":[], "type":"testing", "browser":""}
 }]

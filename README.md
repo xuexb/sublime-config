@@ -11,9 +11,9 @@ DocBlockr
 Emmet
 ETPL
 fecs -> https://github.com/xuexb/sublime-fecs
-javascriptNext - Es6 Syntax
 jsFormat
 OmniMarkupPreviewer
+SideBarEnhancements
 ```
 
 ## 配置

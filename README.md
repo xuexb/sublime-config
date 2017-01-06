@@ -14,6 +14,7 @@ fecs -> https://github.com/xuexb/sublime-fecs
 jsFormat
 OmniMarkupPreviewer
 SideBarEnhancements
+MarkdownEditing -> https://github.com/SublimeText-Markdown/MarkdownEditing
 ```
 
 ## 配置

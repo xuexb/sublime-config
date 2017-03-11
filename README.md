@@ -15,7 +15,7 @@
 - ETPL - 百度efe模板引擎
 > 配置文件[./ETPL.sublime-settings](./ETPL.sublime-settings)到`ETPL/Settings - User`里
 - jsFormat - 格式化js, 支持片段格式化
-> 配置文件[./jsFormat.sublime-settings](./jsFormat.sublime-settings)到`jsFormat/Settings - User`里
+> 配置文件[./jsFormat.sublime-settings](./JsFormat.sublime-settings)到`jsFormat/Settings - User`里
 - OmniMarkupPreviewer - markdown文件实时浏览器里预览
 - SideBarEnhancements - 快捷侧边栏
 - MarkdownEditing - markdown文件编辑高亮

@@ -28,3 +28,16 @@
 - `./(JavaScript|CSS|vue).sublime-settings` - 对应文件的的配置, 如: 被支持的扩展名
 - `./nodejs.sublime-build` - 编辑器内运行nodejs, `command+b`
 - `Preferences.sublime-settings` - 主配置文件, 如: 120标尺、4空格缩进、自动tab转空格等
+
+## 解决sublime text3安装插件报错
+
+编辑`Package Control.sublime-settings`配置文件, 修改:
+
+```json
+{
+    "channels":
+    [
+        "https://github.xuexb.com/static/sublime/channel_v3.json"
+    ]
+}
+```
